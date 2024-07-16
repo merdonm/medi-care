@@ -1,0 +1,76 @@
+@media screen and (min-width: 400px) and (max-width: 800px){
+    .row{
+        flex-direction: column;
+        width: 100%;
+    }
+    .navbar0{
+        max-width: 100%;
+    }
+    .top-nav1{
+        
+        justify-content: space-evenly ! important; 
+    }
+    .navbar{
+        padding: 0px;
+    }
+
+    .top-nav1, .navbar1{
+        padding-left: 15px;     
+    }
+    
+    .appoinment-btn{
+       order: 2;
+       margin-left: auto;
+    }
+    .navbar-toggler{
+        color: #ffff;
+        order: 3;
+    }
+    .navbar-brand{
+        order: 1;
+    }
+    .bg-image{
+        height: 85vh;
+
+    }
+    .home-ctnt{
+        display: none;
+    }
+    .home1{
+        position: static;
+        padding: 15px;
+    }
+    .home-ctnt2{
+        margin-bottom: 12%;
+    }
+    
+    .home2{
+        position: static;
+    }
+    .home-row .col-3{
+        width:fit-content;
+        margin-left:30px;
+        margin-bottom:30px;
+        height: max-content;
+       
+
+    }
+    .home-row .col{
+        padding:40px 0px 0px 30px !important;
+    }
+/* About */
+    .About .d-flex{
+        flex-direction: column;
+    }
+    .About .col-5{
+        width: 100% !important;
+        margin-top: 20%;
+    }
+    .bi-play-circle-fill{
+        position: relative;
+        bottom: 185px;
+       
+    }
+
+
+}
